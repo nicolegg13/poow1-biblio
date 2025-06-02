@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/autor/listar.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/autor" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/emprestimo/editar.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/emprestimo" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/emprestimo/listar.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/emprestimo" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/emprestimo/meus-emprestimos.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/emprestimo" />
+      </map>
+    </option>
+  </component>
+</project>
