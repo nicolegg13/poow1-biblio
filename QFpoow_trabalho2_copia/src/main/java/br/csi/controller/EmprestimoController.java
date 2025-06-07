@@ -31,11 +31,6 @@ public class EmprestimoController extends HttpServlet {
         }
 
         Usuario usuario = (Usuario) session.getAttribute("usuarioLogado");
-        if (usuario.getTipo_us().equals("USUARIO")) {
-            req.setAttribute("mensagemAcessoNegado", "Você não tem acesso a essa página.");
-            req.getRequestDispatcher("/WEB-INF/acessoNegado.jsp").forward(req, resp);
-            return;
-        }
 
         String acao = req.getParameter("acao");
         if (acao != null) {
@@ -64,11 +59,6 @@ public class EmprestimoController extends HttpServlet {
         }
 
         Usuario usuario = (Usuario) session.getAttribute("usuarioLogado");
-        if (usuario.getTipo_us().equals("USUARIO")) {
-            req.setAttribute("mensagemAcessoNegado", "Você não tem acesso a essa página.");
-            req.getRequestDispatcher("/WEB-INF/acessoNegado.jsp").forward(req, resp);
-            return;
-        }
 
         String livroParam = req.getParameter("livro");
         String usuarioParam = req.getParameter("usuario");

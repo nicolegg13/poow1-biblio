@@ -19,7 +19,6 @@
 </body>
 </html>
 
-- Endereço: C:\Users\Cliente\Desktop\NICOLE\UFSM\spi ufsm\[03] POO WEB I\meus_emprestimos_vazio_resto_ok__poow_trabalho2\projeto\src\main\webapp\login.jsp:
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
